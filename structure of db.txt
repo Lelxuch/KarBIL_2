@@ -1,0 +1,126 @@
+- karbil_db
+
+
+    - achievement
+        - id
+        - title
+        - year
+        - scope
+        - name
+        - medal
+        - subject
+        - teacher
+        - grade
+        - location
+
+    - blog
+        - id
+        - title
+        - text
+        - pubdate
+        - likes
+        - views
+        - image
+
+    - event
+        - id
+        - title
+        - text
+        - image
+        - pubdate
+        - event_date
+
+
+    - user
+        - id
+        - login
+        - password
+
+    - achievement
+        - id
+        - title
+        - year
+        - level
+        - name
+        - medal
+        - subject
+        - teacher
+        - grade
+        - location
+
+    - Participants and winners
+        - id
+        - title
+        - academic year
+        - level (automatic)
+        - names Drop-Down
+        - grade or graduation_year
+        - result
+        - subject (automatic from title or names)
+        - teacher Drop-Down from academic year and subject
+
+    - Teachers
+        - id
+        - First name in Kazakh
+        - First name in Russian
+        - First name in English
+        - Last name in Kazakh
+        - Last name in Russian
+        - Last name in English
+        - Middle name in Kazakh
+        - Middle name in Russian
+        - Middle name in English
+        - photo
+        - ??? category ???
+        - subject
+        - from academic year GENERAL
+        - from academic year in KarBIL
+        - to academic year in KarBIL
+        - ??? role (директор, завуч по воспитательной работе ...) ???
+        -
+
+
+    - Info about competitions
+        - id
+        - name in Kazakh
+        - name in Russian
+        - name in English
+        - subject NOT necessary                     Drop-Down Menu
+        - level -> респа, област, международка
+        - country NOT necessary
+        - city NOT necessary                        Drop-Down if country is KZ
+
+    - area (subject)
+        - id
+        - name in Kazakh
+        - name in Russian
+        - name in English
+
+    - result
+        - id
+        - name in Kazakh
+        - name in Russian
+        - name in English
+
+    - student
+        - id
+        - First name in Kazakh
+        - First name in Russian
+        - First name in English
+        - Last name in Kazakh
+        - Last name in Russian
+        - Last name in English
+        - Middle name in Kazakh
+        - Middle name in Russian
+        - Middle name in English
+        - graduation_year
+        - parallel
+        - area (subject)
+        - subject teacher
+
+
+отдельная админка для ученика с возможностью отправлять запрос на добавление или изменение чего либо (запрос приходит классному руководителю)
+
+отдельная админка для учителя с возможностью отправлять запрос на добавление или изменение чего либо (запрос приходит завучу или директору)
+
+возможность скачать pdf резюме с сайта

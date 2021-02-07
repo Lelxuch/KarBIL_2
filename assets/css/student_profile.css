@@ -1,0 +1,301 @@
+body{
+	margin: 0;
+
+	font-family: 'Roboto', sans-serif; /* ??????????????????? */
+	color: #333;
+	line-height: 1.5;
+
+	background: #ddd;
+}
+
+*,
+*after,
+*before{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+input{
+    padding-left: 5px;
+    
+    font-size: 20px;
+
+    border-radius: 10px;
+    border: 3px solid #333;
+}
+
+select{
+    border-radius: 10px;
+    border: 3px solid #333;
+}
+
+/* Profile */
+.header{
+	background: #333;
+	color: #fff;
+
+	width: 100%;
+	height: 100%;
+}
+
+/* Profile header data */
+.profile_header_data{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+
+	width: 100%;
+
+	margin-top: 5%;
+}
+
+.profile_header_photo{
+	width: 250px;
+	height: 333px;
+
+	border: 5px solid #333;
+		
+	transform: translateY(40px);
+}
+
+.profile_header_name{
+	font-size: 35px;
+
+	margin-left: 35px;
+	margin-bottom: 10px;
+}
+
+/* Edit */
+.right_part{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+
+	width: 100%;
+	height: 100%;
+}
+
+.edit_link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-bottom: 35px;
+}
+
+.edit_link:hover{
+	text-decoration: none;
+}
+
+.edit_icon{
+	background: url("../images/user/edit.png") no-repeat center;
+	background-size: cover;
+
+	width: 50px;
+	height: 50px;
+
+	margin-right: 10px;
+
+	transition: ease 0.3s;
+}
+
+/* Header white bottom */
+.header:after{
+	display: block;
+	
+	content: "";
+
+	width: 100%;
+	height: 70px;
+
+	background: #fff;
+}
+
+/* Education */
+.education{
+	
+}
+
+.education_box{
+	background: #fff;
+	border-radius: 10px;
+
+	width: 100%;
+
+	padding: 30px 40px;
+	margin-top: 30px;
+
+	font-size: 25px;
+}
+
+/* Box item */
+.box_item{
+	display: flex;
+}
+
+.box_subtitle{
+	font-weight: 700;
+
+	margin-right: 10px;
+}
+
+/* For achievments num */
+.box_item_num{
+	display: flex;
+
+	margin-top: 10px;
+}
+
+/* Add achievments */
+.add_ach{
+	margin-top: 30px;
+}
+
+.add_box{
+	width: 100%;
+
+	background: #fff;
+	border-radius: 10px;
+
+	padding: 30px 50px;
+}
+
+/* Title */
+.title{
+	width: 100%;
+
+	font-size: 35px;
+	font-weight: 700;
+}
+
+/* 1st row */
+.type{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	height: 200px;
+}
+
+.type_btn{
+	font-size: 35px;
+	font-weight: 700;
+	color: #333;
+
+	padding: 20px 30px;
+
+	background: #fff;
+	border: 4px solid #333;
+	border-radius: 5px;
+
+	transition: color 0.2s;
+}
+
+.type_btn:hover{
+	color: #fff;
+	background: #333;
+}
+
+/* Olympiad */
+.olympiad_form{
+	width: 100%;
+	height: 100%;
+}
+
+.o_f_box{
+	width: 100%;
+
+	padding: 30px 40px;
+}
+
+.o_f_item{
+	margin-bottom: 20px;
+}
+
+.o_f_subtitle{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.o_f_item select{
+	margin-left: 25px;
+	margin-top: 5px;
+
+	width: 300px;
+
+	font-size: 25px;
+}
+
+/* O miss. Если чего-то нету в списке надо будет отправить чела в форму, где он может заполнить не хватающий элемент*/
+.o_miss{
+	display: flex;
+	justify-content: flex-end;
+
+	width: 100%;
+}
+
+.o_miss_link{
+	font-size: 25px;
+	text-decoration: none;
+	color: #333;
+}
+
+.o_miss_link:hover{
+	text-decoration: none;
+	color: #111;
+}
+
+/* Submit */
+.submit{
+	display: flex;
+	justify-content: center;
+
+	width: 100%;
+}
+
+.submit_btn{
+	margin-top: 30px;
+	padding: 5px 15px;
+
+	font-size: 35px;
+	font-weight: 700;
+
+	color: #333;
+	background: #fff;
+
+	border: 4px solid #333;
+	border-radius: 10px;
+
+	transition: color 0.2s;
+}
+
+.submit_btn:hover{
+	color: #fff;
+	background: #333;
+}
+
+/* Achievments */
+.achievments{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.a_box{
+	background: #fff;
+	border-radius: 10px;
+
+	padding: 30px 40px;
+
+	overflow: auto;
+}
+
+.table{
+	vertical-align: top;
+	overflow-x: auto;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
